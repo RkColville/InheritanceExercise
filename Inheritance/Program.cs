@@ -28,12 +28,37 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+            Bird fogHorn = new Bird()
+            {
+                Name = "fogHorn",
+                Eyes = 2,
+                Nose = 1,
+                Legs = 2,
+                Wings = 2,
+                Beak = 1,
+                LaysEggs = false,
+                Feathers = true,
+
+            };
 
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Bird class
              *  
              * Creatively display the class member values 
              */
+            Reptile killerCroc = new Reptile()
+            {
+                Name = "Killer Croc",
+                Eyes = 2,
+                Nose = 1,
+                Legs = 2,
+                ColdBlooded = true,
+                lungs = 2,
+                Scales = true,
+                LayEggs = false,
+
+            };
+
         }
     }
 }
