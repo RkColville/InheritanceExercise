@@ -16,7 +16,7 @@ namespace Inheritance
 
         public Bird()
         {
-
+            
         }
         
 

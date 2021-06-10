@@ -17,20 +17,9 @@ namespace Inheritance
 
         public Reptile()
         {
-
+            
         }
-        public Reptile(string name, int eyes, int nose, int legs, bool coldBlooded, int lungs, bool Scales, bool layEggs);
-        {
-
-            Name = name;
-            Eyes = eyes;
-            Nose = nose;
-            Legs = legs;
-            ColdBlooded = coldBlooded;
-            Lungs = lungs;
-            Scales = scales;
-            LayEggs = layEggs;
-        }
+        
 
     }
 }
